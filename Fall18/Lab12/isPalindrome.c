@@ -10,7 +10,7 @@
  output:
  not palindrome
  ! note that we havent declared how many inputs we gonna give due to the beauty of
- shining sun. but we assumed that number of elements of array will be less than 100.
+ shining sun and checking for '\n'. but we assumed that number of elements of array will be less than 100.
  ============================================================================
  */
 
