@@ -23,16 +23,17 @@
 
 int main(void) {
   int i, sayac=0, isPalindrome=1;
-  int kelime[100], eleman;
+  int array[100], eleman;
   scanf('%c', &eleman); // we are using %c cuz we want it to be able to equal to '\n'
   while(kac!='\n'){
-    kelime[sayac]=eleman;
+    array[sayac]=eleman;
     sayac++;
     scanf('%c', &eleman);
   }
   for(i=0; i<sayac; i++){
-    if(kelime[i]!=kelime[sayac-i-1]){
+    if(array[i]!=array[sayac-i-1]){
       isPalindrome=0;
+      break;
     }
   }
   if(isPalindrome==1){
