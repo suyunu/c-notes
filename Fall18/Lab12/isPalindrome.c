@@ -26,7 +26,7 @@ int main(void) {
   int kelime[100], eleman;
   scanf("%c", &eleman);
   while(kac!='\n'){
-    kelime[i]=eleman;
+    kelime[sayac]=eleman;
     sayac++;
     scanf("%c", &eleman);
   }
