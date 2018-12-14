@@ -9,6 +9,10 @@
  3 5 7 9 11
  output:
  not palindrome
+ input:
+ abc cba
+ output:
+ palindrome
  ! note that we havent declared how many inputs we gonna give due to the beauty of
  shining sun and checking for '\n'. but we assumed that number of elements of array will be less than 100.
  ============================================================================
@@ -19,12 +23,12 @@
 
 int main(void) {
   int i=0, sayac, isPalindrome=1;
-  char kelime[100], kac;
-  scanf("%c", &kac);
+  char kelime[100], harf;
+  scanf("%c", &harf);
   while(kac!='\n'){
-    kelime[i]=kac;
+    kelime[i]=harf;
     i++;
-    scanf("%c", &kac);
+    scanf("%c", &harf);
   }
   sayac=i;
   for(i=0; i<sayac; i++){
