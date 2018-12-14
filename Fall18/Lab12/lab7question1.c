@@ -13,14 +13,8 @@ int oku(int dizi[], int boyut){
       scanf("%d", &dizi[i]);
     }
 }
-int yaz(int dizicik[], int boyutcuk){
-  int i;
-  for(i=0; i<boyutcuk; i++){
-      printf("%d ", dizicik[i]);
-    }
-}
 int startingIndex(int a1[], int a2[], int s1, int s2){
-  int i,j,k,sorunyok=1, obje=9876; // a random num for obje
+  int i,j,k,sorunyok=1, index;
   for(i=0; i<s1; i++){
     for(j=0; j<s2; j++){
       if(a1[i]==a2[j]){
@@ -29,13 +23,20 @@ int startingIndex(int a1[], int a2[], int s1, int s2){
             sorunyok=0;
             break;
           }
-        }if(sorunyok==1){
-          obje=i;
-        }sorunyok=1;
+        }
+        if(sorunyok==1){
+          index=i;
+        }
+        sorunyok=1;
       }
     }
-  }if(obje!=9876){ // if obje hasnot changed
-    printf("%d", obje);
+  }
+ 
+ 
+  if(index!=NULL){ // if we were able to find and assign some num to index; then it is not null anymore, we shall write it
+    printf("%d", index);
+  }else{
+   // if index is null, then we shant write anythin'
   }
 }
 int main(void) {
