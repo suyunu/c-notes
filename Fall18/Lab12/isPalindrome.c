@@ -10,10 +10,10 @@
  output:
  not palindrome
  input:
- abc cba
+ 1 2 3 4 5 4 3 2 1
  output:
  palindrome
- ! note that we havent declared how many inputs we gonna give due to the beauty of
+ ! note that we havent declared how many inputs we gonna take due to the beauty of
  shining sun and checking for '\n'. but we assumed that number of elements of array will be less than 100.
  ============================================================================
  */
@@ -22,15 +22,14 @@
 #include <stdlib.h>
 
 int main(void) {
-  int i=0, sayac, isPalindrome=1;
-  char kelime[100], harf;
-  scanf("%c", &harf);
+  int i, sayac=0, isPalindrome=1;
+  int kelime[100], eleman;
+  scanf("%c", &eleman);
   while(kac!='\n'){
-    kelime[i]=harf;
-    i++;
-    scanf("%c", &harf);
+    kelime[i]=eleman;
+    sayac++;
+    scanf("%c", &eleman);
   }
-  sayac=i;
   for(i=0; i<sayac; i++){
     if(kelime[i]!=kelime[sayac-i-1]){
       isPalindrome=0;
