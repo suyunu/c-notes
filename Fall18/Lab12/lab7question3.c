@@ -24,7 +24,7 @@ int startingIndex(int a1[], int a2[], int s1, int s2){
             break;
           }
         }
-        if(sorunyok==1){
+        if(sorunyok==1){ // sıkıntı yoksa sıkıntı var demektir xd
           index=i;
         }
         sorunyok=1;
