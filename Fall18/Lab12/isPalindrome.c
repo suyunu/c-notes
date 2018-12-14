@@ -24,11 +24,11 @@
 int main(void) {
   int i, sayac=0, isPalindrome=1;
   int kelime[100], eleman;
-  scanf("%c", &eleman);
+  scanf("%d", &eleman);
   while(kac!='\n'){
     kelime[sayac]=eleman;
     sayac++;
-    scanf("%c", &eleman);
+    scanf("%d", &eleman);
   }
   for(i=0; i<sayac; i++){
     if(kelime[i]!=kelime[sayac-i-1]){
