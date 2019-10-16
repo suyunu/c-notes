@@ -1,4 +1,4 @@
-# Cmpe150 - Fall 2019
+# CmpE150 - Fall 2019
 
 Bogazici University CmpE 150 Introduction to Computing (C programming language) Lab Notes 
 
@@ -8,6 +8,11 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 
 * printf(), scanf()
 * int, float
+
+### [Week 3](Week_03/)
+
+* char
+* operators
 
 ### Notes From Other Labs
 

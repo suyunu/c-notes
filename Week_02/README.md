@@ -1,4 +1,4 @@
-# Lab 2 Notes - 02.10.2019
+# Week 2 Notes - 02.10.2019
 
 ## Q1 - Rectangle
 
