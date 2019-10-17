@@ -14,6 +14,10 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 * char
 * operators
 
+### [Week 4](Week_04/)
+
+* conditional statements
+
 ### Notes From Other Labs
 
 * https://github.com/hkmztrk/CMPE150
