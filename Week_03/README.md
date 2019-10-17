@@ -1,7 +1,5 @@
 # Week 3 - 09.10.2019
 
----
-
 ## Warm-Up
 
 ### Question 1 - Odd Enough
@@ -44,7 +42,6 @@ Write a program which reads a lower-case char (character) from the user, then pr
 
 <br />
 
----
 
 ## Operators
 
