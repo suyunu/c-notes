@@ -18,6 +18,12 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 
 * conditional statements
 
+### [Week 5](Week_05/)
+
+* Loops
+	* while()
+	* for(;;)
+
 ### Notes From Other Labs
 
 * https://github.com/hkmztrk/CMPE150
