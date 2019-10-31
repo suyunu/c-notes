@@ -24,6 +24,10 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 	* while()
 	* for(;;)
 
+### [Week 6](Week_06/)
+
+* Loops
+
 ### Notes From Other Labs
 
 * https://github.com/hkmztrk/CMPE150
