@@ -28,6 +28,11 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 
 * Loops
 
+### [Week 7](Week_07/)
+
+* Loop Exercises
+* Functions
+
 ### Notes From Other Labs
 
 * https://github.com/hkmztrk/CMPE150
