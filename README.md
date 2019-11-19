@@ -12,11 +12,11 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 ### [Week 3](Week_03/)
 
 * char
-* operators
+* Operators
 
 ### [Week 4](Week_04/)
 
-* conditional statements
+* Conditional statements
 
 ### [Week 5](Week_05/)
 
@@ -30,8 +30,13 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 
 ### [Week 7](Week_07/)
 
-* Loop Exercises
+* Loop exercises
 * Functions
+
+### [Week 8](Week_08/)
+
+* Function exercises
+* Call by reference
 
 ### Notes From Other Labs
 
