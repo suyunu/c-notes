@@ -38,6 +38,15 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 * Function exercises
 * Call by reference
 
+### [Week 9](Week_09/)
+
+* Call by reference
+* Arrays
+
+### [Week 10](Week_10/)
+
+* Arrays
+
 ### Notes From Other Labs
 
 * https://github.com/hkmztrk/CMPE150
