@@ -93,11 +93,25 @@ https://www.programiz.com/c-programming/c-arrays
   * int mark[] = {19, 10, 8, 17, 9};
   * int mark[5] = {19, 10, 8};
 * Access
-* Runtime iinitialization
+* Runtime initialization
 
 
 ### Question 2 - Collect and Sum
 
+Write a program which reads an integer N from the user, then reads N integers from the user. Then your program should print sum of these N integers. Assume N is smaller than 50.
+
+|  INPUT  |  OUTPUT |
+|-------|-------|
+| 4<br>1 2 5 4 | 12 |
+
+<br>
+
 
 ### Question 3 - Biggest
+
+Write a program which reads an integer N from the user, then reads N integers from the user. Then your program should print the largest of these N integers. Assume N is smaller than 50.
+
+|  INPUT  |  OUTPUT |
+|-------|-------|
+| 4<br>1 2 5 4 | 5 |
 
