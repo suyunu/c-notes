@@ -23,7 +23,7 @@ l*fk
 
 <br>
 
-### Question 1 - Rook and Pawns (Lab9 Q2)
+### Question 2 - Rook and Pawns (Lab9 Q2)
 Write a program which reads a chessboard as an 8x8 matrix from the user. In the chessboard, there will be one rook (kale) represented by integer: 8, and multiple pawns (piyonlar) represented by integer: 1. The rest will be empty: 0.
 
 The rook will capture the closest possible pawn. Your program should print the chessboard to the screen after the capture. 
@@ -75,14 +75,14 @@ Input               Output
 
 <br>
 
-### Question 2 - String Functions
+### Question 3 - MyStrcmp
 
 Write strcmp function.
 
 <br>
 
 
-### Question 3 - Get Me Out Of Here
+### Question 4 - Get Me Out Of Here
 
 Write a program which reads a sentence as a string, and a word as a string. Then the program should exclude this word from the sentence if the sentence contains the word, then print the new version to the screen. Assume no punctuation will occur, and every letter is lower case.
 
