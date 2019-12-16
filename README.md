@@ -52,6 +52,10 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 * Midterm 2
 * Multi-dimensional Arrays
 
+### [Week 12](Week_12/)
+
+* Strings
+
 ### Notes From Other Labs
 
 * https://github.com/hkmztrk/CMPE150
