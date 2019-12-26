@@ -56,6 +56,11 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 
 * Strings
 
+### [Week 13](Week_13/)
+
+* String Example
+* Structs
+
 ### Notes From Other Labs
 
 * https://github.com/hkmztrk/CMPE150
