@@ -1,4 +1,4 @@
-# C programming language Lab Notes 
+# CmpE150 - Spring 2020
 
 Bogazici University CmpE 150 Introduction to Computing (C programming language) Lab Notes 
 
