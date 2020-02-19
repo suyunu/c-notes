@@ -1,5 +1,5 @@
 # Week 2 Notes - 19.02.2020
----
+
 
 ## Star Items of the Last Week
 <details>
@@ -68,11 +68,9 @@ int main(){
     int number_1, number_2, product;
     
     //Read first value
-    printf("Enter first number\n");
     scanf("%d", &number_1);
     
     //Read second value
-    printf("Enter second number\n");
     scanf("%d", &number_2);
     product = number_1 * number_2;
     
@@ -177,9 +175,10 @@ Write a program that takes 3 integers from the user and then prints the sum of t
 int main()
 {
     // the sizes of data types
-    printf("size of char = %lu\n", sizeof(int));
-    printf("size of char = %lu\n", sizeof(long));
-    printf("size of char = %lu\n", sizeof(unsigned int));
+    printf("size of int = %lu\n", sizeof(int));
+    printf("size of long int  = %lu\n", sizeof(long));
+    printf("size of unsigned int = %lu\n", sizeof(unsigned int));
+    printf("size of char = %lu\n", sizeof(char));
     int a; // declaration
     a = 2147483647; // assignment of largest int
     printf("%d\n", a+1);
@@ -212,7 +211,8 @@ Write a program that reads two integers as the side lengths of a rectangle. Then
 |  INPUT  |  OUTPUT |
 |:-------:|:-------:|
 | 3 5   | 16 15  |
-    
+
+<br>
 
 ## Q3 - Circle
 
@@ -221,7 +221,8 @@ Write a program that reads a float as the radius of a circle. Then outputs the c
 |  INPUT  |  OUTPUT |
 |:-------:|:-------:|
 | 4.5  | 28.260 63.585 |
-    
+
+<br>
     
 ## Q4 - Average
 
@@ -230,3 +231,16 @@ Write a program that reads three integers from the user. Then outputs the averag
 |  INPUT  |  OUTPUT |
 |:-------:|:-------:|
 | 2 3 5   | 3.33  |
+
+<br>
+
+## Question 5 - Odd Enough
+
+Write a program that takes 3 integer from the user and then pronts the sum of odd numbers.
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| 3 4 5   | 8  |
+| 2 2 4   | 0  |
+| 1 9 15   |  25  |
+
