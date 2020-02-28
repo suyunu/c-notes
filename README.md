@@ -6,7 +6,7 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 
 ### Notes From Other Labs
 
-* https://github.com/gokceuludogan/cmpe150-fall19
+* https://github.com/gokceuludogan/cmpe150
 * https://github.com/melsener/cmpe150
 * https://github.com/hkmztrk/CMPE150
 
@@ -16,3 +16,23 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 
 * Introduction
 * printf(), scanf()
+
+#### Star Items
+
+	- Indentation
+	- Read Errors and Warnings
+
+### [Week 2](Week_02/)
+
+* Data types
+* int, float
+
+#### Star Items
+
+	- Always use  the correct format specifier (%d %f ..)
+	- Type Casting
+
+### [Week 3](Week_03/)
+
+* Operators
+* char
