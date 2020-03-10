@@ -69,9 +69,8 @@ Write a program which reads a character from the user. Print the 3rd character t
 | M  | P  |
 | !  | $  |
 
-<!---
 
-### Question 1 - Smol
+### Question 2 - Smol
 Write a program which reads a lower-case char (character) from the user, then prints its upper-case version on the screen.
 
 *Hint: Note that in the ASCII table, the distance between a lower-case letter and its corresponding upper-case version is the same for all letters.*
@@ -81,7 +80,6 @@ Write a program which reads a lower-case char (character) from the user, then pr
 | d   | D  |
 | t   | T  |
 
--->
 
 <br>
 
@@ -116,7 +114,7 @@ The conditional statements **if**, **if-else**, and **switch** allow us to choos
     if(a > 0)
         printf("Positive\n");
         printf("Not Negative\n");
-    printf("a: \%d", a);
+    printf("a: %d", a);
 ```
 
 </details>
@@ -133,7 +131,7 @@ The conditional statements **if**, **if-else**, and **switch** allow us to choos
         printf("Positive\n");
         printf("Not Negative\n");
     }
-    printf("a: \%d", a);
+    printf("a: %d", a);
 ```
 
 </details>
@@ -153,7 +151,7 @@ The conditional statements **if**, **if-else**, and **switch** allow us to choos
 int main()
 {
     char card = 'D';
-    switch (day) {
+    switch (card) {
         case 'C':
             printf("Clubs\n");
         case 'D':
@@ -182,7 +180,7 @@ int main()
 int main()
 {
     char card = 'D';
-    switch (day) {
+    switch (card) {
         case 'C':
             printf("Clubs\n");
             break;
@@ -262,9 +260,9 @@ int main()
 
 <br>
 
-### Question 2 - Positivity
+### Question 3 - Positivity
 
-#### Question 2a
+#### Question 3a
 Write a program that reads an integer. If the integer is positive then print "positive", if it is not then print "not positive".
 
 |  INPUT  |  OUTPUT |
@@ -275,7 +273,7 @@ Write a program that reads an integer. If the integer is positive then print "po
 
 <br>
 
-#### Question 2b
+#### Question 3b
 Write a program that reads an integer. If the integer is positive then print "positive", if it is negative then print "negative", if it is zero then print "zero".
 
 |  INPUT  |  OUTPUT |
@@ -286,7 +284,7 @@ Write a program that reads an integer. If the integer is positive then print "po
 
 <br>
 
-#### Question 2c
+#### Question 3c
 Write a program that reads an integer. If the integer is positive then check if the number is odd or even and then print "odd" or "even", if it is negative then print the absolute value of the number, if it is zero then print "zero".
 
 |  INPUT  |  OUTPUT |
@@ -298,7 +296,7 @@ Write a program that reads an integer. If the integer is positive then check if 
 
 <br />
 
-### Question 3 - Divisible (Lab3 Q5)
+### Question 4 - Divisible (Lab3 Q5)
 
 Write a program that will take 2 numbers from the user and if the first number is divisible by the second number, your code should print "it is divisible", if it is not divisible, then print "it is not divisible". If any of your numbers are nonpositive, print "Incorrect Input" 
 
@@ -313,7 +311,7 @@ Write a program that will take 2 numbers from the user and if the first number i
 <br />
 
 
-### Question 4 - What am I to You
+### Question 5 - What am I to You
 
 Write a program that will take 1 char from the user. If the char is a letter print "Lettuce", if the char is a digit (number) print "Durian", otherwise print "Nani!?"
 
@@ -327,7 +325,7 @@ Write a program that will take 1 char from the user. If the char is a letter pri
 
 <br />
 
-### Question 5 - Calculator (Lab3 Q4)
+### Question 6 - Calculator (Lab3 Q4)
 
 Write a basic calculator program (+, -, \*, /). The program takes three inputs: float, char, float, then prints the result. 
 

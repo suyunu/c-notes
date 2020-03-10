@@ -36,3 +36,12 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 
 * Operators
 * char
+
+#### Star Items
+
+	- Zero => False, Nonzero => True
+	- Letters and digits are consecutive in ASCII table
+
+### [Week 4](Week_04/)
+
+* Conditional Statements
