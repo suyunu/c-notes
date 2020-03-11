@@ -45,3 +45,12 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 ### [Week 4](Week_04/)
 
 * Conditional Statements
+
+#### Star Items
+
+	- Indentation saves lives (and codes)
+	- No boolean expression after else
+
+### [Week 5](Week_05/)
+
+* Loops

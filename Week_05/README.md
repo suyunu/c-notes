@@ -1,13 +1,5 @@
 # Week 5 Notes - 11.03.2020
 
----
-
-Quiz: 15:30 - 15:50
-
-Feedback
-
----
-
 ## Star Items of the Last Week
 <details>
 <summary>Star Item 1</summary>
@@ -59,15 +51,6 @@ Write a program that reads a character.  Prints upper-case version of the entere
 
 <br />
 
----
-<!-- 
-<br />
-
-
-<img src="figures/w05-loops.png" style="width:80%">
-
-<br /> -->
-
 
 ```c
 #include <stdio.h>
@@ -76,16 +59,16 @@ int main(){
     
     /* WHILE LOOP */
     i = 0;   // i is the loop control variable, initialize before using
-    while ( i <= 10) // executes 0 or more times, each execution is called iteration
+    while ( i < 10) // executes 0 or more times, each execution is called iteration
     {
         /* statements */ 
-        i +=1; // do NOT forget to update the control variable
+        i++; // do NOT forget to update the control variable
 
     } 
     
     /* FOR LOOP */
     int j; // declare the control variable
-    for ( j = 0; j <= 10; j++)  // control variable initialization, control statement, and update
+    for ( j = 0; j < 10; j++)  // control variable initialization, control statement, and update
     {                         // in the same line 
         /* statements*/
 
@@ -96,9 +79,9 @@ int main(){
     do  // executes 1 or more times!!
     {
         /* statements */
-        z +=1;
+        z++;
 
-    } while ( z <= 10 ); // do not forget ;  
+    } while ( z < 10 ); // do not forget ;  
 
 }
  ```
