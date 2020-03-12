@@ -141,7 +141,7 @@ Write a program that reads 3 integers A, B and t from the user. Then prints numb
 
 ### Question 5 - Even Numbeeeers
 
-Write a program that reads two integers A and B. Then prints the sum of even numbers between A and B.
+Write a program that reads two integers A and B. Then prints the sum of even numbers between A and B. Assume that B > A.
 
 |  INPUT  |  OUTPUT |
 |:-------:|:-------:|
