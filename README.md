@@ -8,6 +8,7 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 
 * https://github.com/gokceuludogan/cmpe150
 * https://github.com/melsener/cmpe150
+* https://github.com/zeynepyirmibes/cmpe150-spring20
 * https://github.com/hkmztrk/CMPE150
 
 ## Weeks
@@ -54,3 +55,8 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 ### [Week 5](Week_05/)
 
 * Loops
+
+### [Week 6](Week_06/)
+
+* Loops
+* Nested Loops
