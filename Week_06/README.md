@@ -18,8 +18,6 @@ Write a program that takes a number and prints its total digit count and also ev
 
 Write a program that will take integers as inputs until the user enters a negative number. Then shows the user the sum of all ODD non-negative numbers that is entered.
 
-(introduce break and continue)
-
 |  INPUT  |  OUTPUT |
 |:-------:|:-------:|
 | 4 7 45 9 2 0 0 5 8 -4  | 66 |
