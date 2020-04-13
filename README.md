@@ -60,3 +60,7 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 
 * Loops
 * Nested Loops
+
+### [Week 7](Week_07/)
+
+* Functions
