@@ -68,6 +68,8 @@ Write a function named **reverse** that will take an integer number and return i
 
 Write a function **is_perfect()** that checks whether the given number is perfect. Perfect number is a positive integer that is equal to the sum of its positive divisors excluding the number itself. The function prints the positive divisors (excluding itself) and returns 1 if the number is perfect and returns 0 otherwise. 
 
+* (These 0 (false) or 1 (true) returning functions are also known as "boolean functions")
+
 | Input | Output     | Return |
 | ----- | ---------- | ------ |
 | 5     | 1          | 0      |
@@ -80,7 +82,6 @@ Write a function **is_perfect()** that checks whether the given number is perfec
 ### Question 6 - Am I a Prime to You (LAB5 Q14)
 
 Write a function named **isPrime** that takes an integer as a parameter and returns 1 if the number is prime, otherwise returns 0.
-* (These 0 (false) or 1 (true) returning functions are also known as "boolean functions")
 
 Then write main appropriately to see the result.  
 
