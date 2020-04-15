@@ -28,7 +28,7 @@ Output:
 
 <br>
 
-#### Question 2 - Minimum
+### Question 2 - Minimum
 
 Write a function **find_min** which takes three integers as parameters and returns **minimum** among them. Then, call this function in main() with the following inputs and print corresponding outputs.
 
@@ -53,7 +53,7 @@ Then write a program which reads a word from the user, and prints it with upper 
 
 <br>
 
-#### Question 4 - Reverse
+### Question 4 - Reverse
 
 Write a function named **reverse** that will take an integer number and return its reverse version as another integer. Then fill/write main() appropriately to see the result.		
 
@@ -64,7 +64,7 @@ Write a function named **reverse** that will take an integer number and return i
 
 <br>
 
-#### Question 5 - The Perfect Question
+### Question 5 - The Perfect Question
 
 Write a function **is_perfect()** that checks whether the given number is perfect. Perfect number is a positive integer that is equal to the sum of its positive divisors excluding the number itself. The function prints the positive divisors (excluding itself) and returns 1 if the number is perfect and returns 0 otherwise. 
 
@@ -108,7 +108,7 @@ Write a function named **primeSum** that takes an integer to check if this integ
 <br>
 
 
-#### Question 8 - Binary
+### Question 8 - Binary
 
 Write a function that will take an integer as a parameter. Then calculates and returns its binary version as another integer. Then write main appropriately to see the result.	
 
@@ -120,7 +120,7 @@ Write a function that will take an integer as a parameter. Then calculates and r
 
 <br>
 
-#### Question 9 - Fibonacci
+### Question 9 - Fibonacci
 
 Write a function that will take a positive integer n, and returns the nth Fibonacci number. Then write main appropriately to see the result.
 
