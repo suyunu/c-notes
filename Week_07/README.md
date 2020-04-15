@@ -41,7 +41,7 @@ Write a function **find_min** which takes three integers as parameters and retur
 
 ### Question 3 - Word Up (LAB5 Q2)
 
-Write a function named **toUpper** which takes a char as input, and returns the upper case version of the character if it is a lower case letter. Otherwise it should return the same character.
+Write a function named **to_upper** which takes a char as input, and returns the upper case version of the character if it is a lower case letter. Otherwise it should return the same character.
 
 Then write a program which reads a word from the user, and prints it with upper case characters. Assume valid words will be given. 
 
@@ -81,7 +81,7 @@ Write a function **is_perfect()** that checks whether the given number is perfec
 
 ### Question 6 - Am I a Prime to You (LAB5 Q14)
 
-Write a function named **isPrime** that takes an integer as a parameter and returns 1 if the number is prime, otherwise returns 0.
+Write a function named **is_prime** that takes an integer as a parameter and returns 1 if the number is prime, otherwise returns 0.
 
 Then write main appropriately to see the result.  
 
@@ -96,9 +96,9 @@ Then write main appropriately to see the result.
 
 ### Question 7 - Am I TWO Prime to You
 
-Write a function named **primeSum** that takes an integer to check if this integer can be expressed as the sum of two prime numbers of all possible combinations and prints them.
+Write a function named **prime_sum** that takes an integer to check if this integer can be expressed as the sum of two prime numbers of all possible combinations and prints them.
 
-* NOTE: You can use **isPrime** function you wrote previously.
+* NOTE: You can use **is_prime** function you wrote previously.
 
 |  INPUT  |  OUTPUT |
 |:-------:|:-------:|
