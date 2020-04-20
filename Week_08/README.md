@@ -2,18 +2,25 @@
 
 ## Functions - Call by Reference - Pointers
 
-#### Function Syntax
+### Function Syntax
 
 <img src='https://www.geeksforgeeks.org/wp-content/uploads/Function-Prototype-in-c.png'/>
+
+<br>
 
 ## Pointers
 
 ![](figures/W08-ptr1.png)
 
+---
+
 ![](figures/W08-ptr2.png)
+
+---
 
 ![](figures/W08-ptr3.png)
 
+<br>
 
 ### Question 1 - Number Alteration
 
