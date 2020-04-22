@@ -70,9 +70,6 @@ int main () {
 
 ## Pointers
 
-* We want to change the value of variable inside function.
-* We pass a reference to the parameter
-
 ```c
 #include <stdio.h>
 
@@ -151,6 +148,20 @@ int main () {
 }
 ```
 
+<br>
+
+**Side note: Two different ways to define a pointer and then assing an address to it.**
+
+```c
+int n = 5;
+int *p;
+p = &n;
+```
+
+```c
+int n = 5;
+int *p = &n;
+```
 <br>
 
 ### Swap - Call by Reference
