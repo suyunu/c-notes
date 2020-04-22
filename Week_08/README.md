@@ -8,7 +8,95 @@
 
 <br>
 
+### Swap - Call by Value (Scope of Variables)
+
+```c
+#include <stdio.h>
+ 
+/* function declaration */
+void swap(int a, int b);
+
+/* function definition to swap the values */
+void swap(int a, int b) {
+
+   int temp;
+
+   temp = a; /* save the value of a */
+   a = b;    /* put b into a */
+   b = temp; /* put temp into b */
+}
+ 
+int main () {
+
+   /* local variable definition */
+   int a = 100;
+   int b = 200;
+ 
+   printf("Before swap, value of a : %d\n", a );
+   printf("Before swap, value of b : %d\n", b );
+ 
+   /* calling a function to swap the values */
+   swap(a, b);
+ 
+   printf("After swap, value of a : %d\n", a );
+   printf("After swap, value of b : %d\n", b );
+ 
+   return 0;
+}
+
+```
+<br>
+
+![](figures/W08-swap_val1.png)
+
+---
+
+![](figures/W08-swap_val2.png)
+
+---
+
+![](figures/W08-swap_val3.png)
+
+---
+
+![](figures/W08-swap_val4.png)
+
+---
+
+![](figures/W08-swap_val5.png)
+
+
+<br>
+
 ## Pointers
+
+* We want to change the value of variable inside function.
+* We pass a reference to the parameter
+
+```c
+#include <stdio.h>
+
+int main () {
+	int *p;
+	int c;
+
+	p = &c;
+	c = 4;
+
+	*p = 21;
+
+	int d = 34;
+
+	p = &d;
+
+	printf("%d")
+
+	return 0;
+}
+
+```
+
+<br>
 
 ![](figures/W08-ptr1.png)
 
@@ -22,17 +110,118 @@
 
 <br>
 
+**Line by line outputs**
+```c
+#include <stdio.h>
+
+int main () {
+	int *p;
+	int c;
+	
+	printf("int *p, c\n");
+	printf("&p: %p  -  p: %p\n",&p ,p);
+	printf("&c: %p  -  c: %d\n",&c ,c);
+    printf("\n\n");
+
+	p = &c;
+	c = 4;
+	
+	printf("p = &c;\nc = 4;\n");
+	printf("&p: %p  -  p: %p  -  *p: %d\n",&p ,p, *p);
+	printf("&c: %p  -  c: %d\n",&c ,c);
+    printf("\n\n");
+
+	*p = 21;
+	
+	printf("*p = 21;\n");
+	printf("&p: %p  -  p: %p  -  *p: %d\n",&p ,p, *p);
+	printf("&c: %p  -  c: %d\n",&c ,c);
+    printf("\n\n");
+
+	int d = 34;
+	
+	p = &d;
+
+    printf("int d = 34;\np = &d;\n");
+	printf("&p: %p  -  p: %p  -  *p: %d\n",&p ,p, *p);
+	printf("&c: %p  -  c: %d\n",&c ,c);
+	printf("&d: %p  -  d: %d\n",&d ,d);
+
+	return 0;
+}
+```
+
+<br>
+
+### Swap - Call by Reference
+
+```c
+#include <stdio.h>
+ 
+/* function declaration */
+void swap(int *a, int *b);
+
+/* function definition to swap the values */
+void swap(int *a, int *b) {
+    int temp;
+
+    temp = *a; /* save the value of *a */
+    *a = *b;    /* put *b into *a */
+    *b = temp; /* put temp into *b */
+}
+ 
+int main () {
+    /* local variable definition */
+    int a = 100;
+    int b = 200;
+
+    printf("Before swap, value of a : %d\n", a );
+    printf("Before swap, value of b : %d\n", b );
+
+    /* calling a function to swap the values */
+    swap(&a, &b);
+
+    printf("After swap, value of a : %d\n", a );
+    printf("After swap, value of b : %d\n", b );
+
+    return 0;
+}
+
+```
+
+<br>
+
+![](figures/W08-swap_ptr1.png)
+
+---
+
+![](figures/W08-swap_ptr2.png)
+
+---
+
+![](figures/W08-swap_ptr3.png)
+
+---
+
+![](figures/W08-swap_ptr4.png)
+
+---
+
+![](figures/W08-swap_ptr5.png)
+
+<br>
+
 ### Question 1 - Number Alteration
 
-In the main function, one integer number and a char are read from the user into the variables x and c respectively. Complete the program by writing the function alter.
+In the main function, one integer number and a char are read from the user into the variables x and c respectively. Complete the program by writing the function **alter**.
 
-**alter** function takes one integer pointer (address of an integer) and one char variables as parameters. Function does the following operations:
+**alter** function takes one integer pointer (address of an integer) and one char variable as parameters. Function does the following operations:
 * If char parameter is 'i', then increase the integer pointer parameter by one.
 * If char parameter is 'd', then decrease the integer pointer parameter by one.
 * If char parameter is 's', then assign the square of the integer pointer parameter to itself.
 * Otherwise, do not change anything.
 
-In the main function send variables x and c to the **alter** function and then print x.
+In the main function send variables x and c to the **alter** function and then print x in the main function.
 
 |  INPUT  |  OUTPUT |
 |:-------:|:-------:|
@@ -52,7 +241,8 @@ In the main function send variables x and c to the **alter** function and then p
 
 int main()
 {
-    int x, c;
+    int x;
+    char c;
     
     scanf("%d %c", &x, &c);
     
@@ -115,16 +305,16 @@ In the main function, two integer numbers are read from the user into the variab
 
 **sums** takes two integers (a and b) and an integer pointer (\*sum). The function should store the sum of these two integers in \*sum pointer.
 
-**powered** takes three integers (sum, a and b) and two integer pointers (\*sum_p1 and \*sum_p2). The function should store the a^{th} power of the sum in \*sum_p1 and b^{th} power of the sum in \*sum_p2. 
+**powered** takes three integers (sum, a and b) and two integer pointers (\*sum_p1 and \*sum_p2). The function should store the $a^{th}$ power of the sum in \*sum_p1 and $b^{th}$ power of the sum in \*sum_p2. 
 
 Output:
 
 First Line: Sum of two numbers
 
-Second Line: a^{th} power of the a+b and  b^{th} power of the a+b
+Second Line: $a^{th}$ power of the a+b and  $b^{th}$ power of the a+b
 
 |  INPUT  |  OUTPUT |
-|:-------:|:-------:|
+|:-------:|:-------|
 | 6 1 | 7<br>117649 7 |
 | 4 4 | 8<br>4096 4096 |
 | 5 0 | 5<br>3125 1 |
@@ -167,5 +357,7 @@ int main(){
 <br>
 
 ### Question 4 - Complex Powers (Old Midterm Question)
+
+* Think about how we write the regular power.
 
 ![Complex Powers](figures/q_complex.png)
