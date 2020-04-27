@@ -69,3 +69,7 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 
 * Functions - Call by Reference
 * Pointers
+
+### [Week 9](Week_09/)
+
+* Arrays
