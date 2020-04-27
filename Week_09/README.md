@@ -21,7 +21,7 @@
 * In order to access to a particular location, i.e., an element within the array, we specify the name of the array and the position number (index) of the variable in square brackets.
    
 
-### Example: 
+### Examples: 
 
 * We want to create an array named digit of size 10 and type as int.
 
@@ -193,14 +193,15 @@ int main()
 
 <img src="figures/array_fig1.png" width="150">
 
+<br>
+
+---
 
 <br>
 
 **THINK ABOUT**: What are the ways to initialize an array with 0's (zeros).
 
 </details>
-
-<br>
 
 ## Questions
 
