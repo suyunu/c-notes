@@ -40,9 +40,11 @@ int main()
 
 <img src="figures/array_fig1.png" width="150">
 
-* We can assign values directly to each element of the array:
-
 <br>
+
+---
+
+* We can assign values directly to each element of the array:
 
 ```c 
 #include <stdio.h>
@@ -60,6 +62,8 @@ int main()
 <img src="figures/array_fig2.png" width="150">
 
 <br>
+
+---
 
 * We can read values from the user and store them in the array:
 
@@ -81,6 +85,8 @@ int main()
 
 <br>
 
+---
+
 * Now, let's initialize our digit array with digits from 0 to 9 to:
 
 ```c 
@@ -97,6 +103,8 @@ int main()
 <img src="figures/array_fig4.png" width="150">
 
 <br>
+
+---
 
 * What if we don't initialize all the elements of the array:
 
@@ -116,6 +124,8 @@ int main()
 <img src="figures/array_fig5.png" width="150">
 
 <br>
+
+---
 
 * Now, let's assign digits from 0 to 9 to the corresponding locations in our digit array with a loop:
 
@@ -138,6 +148,8 @@ int main()
 
 <br>
 
+---
+
 * We can assign values to an array form the user with a for loop:
 
 ```c 
@@ -156,6 +168,10 @@ int main()
 ```
 
 <img src="figures/array_fig5.png" width="150">
+
+<br>
+
+---
 
 * You can also create a Variable Length Array (VLA), using an integer variable for the size.
 * However, you can not initialize a VLA when declaring.
