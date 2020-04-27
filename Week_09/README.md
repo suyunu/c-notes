@@ -222,7 +222,7 @@ Write a program that reads an integer N from the user, then reads N more integer
 
 Write a program that reads an integer N from the user, then reads N more integers from the user and store them in an array. Then prints the sum, average and variance of the elements.
 
-<img src="figures/variance.png">
+<img src="figures/variance.png" width="300">
 
 
 | Input                         | Output      |
