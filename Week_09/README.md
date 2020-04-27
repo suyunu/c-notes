@@ -36,7 +36,7 @@ int main()
 }
 ```
 
-* The above code allocates memory space for 10 integer data values. But be aware of that, these elements are not initialized, so that we don't know their values.
+* The above code allocates memory space for 10 integer data values. Indices starts from 0. Also, be aware of that, these elements are not initialized, so that we don't know their values.
 
 <img src="figures/array_fig1.png" width="150">
 
@@ -167,7 +167,7 @@ int main()
 }
 ```
 
-<img src="figures/array_fig5.png" width="150">
+<img src="figures/array_fig6.png" width="150">
 
 <br>
 
@@ -200,6 +200,8 @@ int main()
 <br>
 
 **THINK ABOUT**: What are the ways to initialize an array with 0's (zeros).
+
+<br>
 
 </details>
 
