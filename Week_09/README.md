@@ -207,7 +207,7 @@ int main()
 
 ## Questions
 
-## Question 1 - Large
+### Question 1 - Large
 
 Write a program that reads an integer N from the user, then reads N more integers from the user and store them in an array. Then prints elements larger than the average of numbers held in the array. 
 
@@ -218,7 +218,7 @@ Write a program that reads an integer N from the user, then reads N more integer
 
 <br>
 
-## Question 2 - Statistics
+### Question 2 - Statistics
 
 Write a program that reads an integer N from the user, then reads N more integers from the user and store them in an array. Then prints the sum, average and variance of the elements.
 
@@ -232,7 +232,7 @@ Write a program that reads an integer N from the user, then reads N more integer
 
 <br>
 
-## Question 3 - Encryption (Teaching Codes Lab7)
+### Question 3 - Encryption (Teaching Codes Lab7)
 
 Write a program which reads a sentence from the user (read characters until '\n' appears). Your program then should put this sentence into a char array (assume the sentence will be shorter than 50 characters).
 
@@ -248,7 +248,7 @@ Then, decrypt this sentence by adding -1 to each character, and print the decryp
 
 <br>
 
-## Question 4 - Reverse (Teaching Codes Lab7)
+### Question 4 - Reverse (Teaching Codes Lab7)
 
 Write a program which reads an integer N from the user, then reads N integers from the user and store them in an array (Assume N is smaller than 50).
 
@@ -273,7 +273,7 @@ Write a program which reads an integer N from the user, then reads N integers fr
 
 <br>
 
-## Question 6 - Inception (Teaching Codes Lab7)
+### Question 6 - Inception (Teaching Codes Lab7)
 
 Write a program which reads two integers: N and M from the user. Then the program should read N more integers, then M more integers from the user. Assume N < M < 50.
 
