@@ -201,6 +201,17 @@ int main()
 
 **THINK ABOUT**: What are the ways to initialize an array with 0's (zeros).
 
+```c 
+#include <stdio.h>
+
+int main()
+{
+    int digit[10] = {0};
+
+    return 0;
+}
+```
+
 <br>
 
 </details>
@@ -220,7 +231,7 @@ Write a program that reads an integer N from the user, then reads N more integer
 
 ### Question 2 - Statistics
 
-Write a program that reads an integer N from the user, then reads N more integers from the user and store them in an array. Then prints the sum, average and variance of the elements.
+Write a program that reads an integer N from the user, then reads N more integers from the user and store them in an array. Then prints the sum, average and variance of the elements (Assume N is smaller than 50).
 
 <img src="figures/variance.png" width="300">
 
@@ -228,7 +239,7 @@ Write a program that reads an integer N from the user, then reads N more integer
 | Input                         | Output      |
 | ----------------------------- | ----------- |
 | 10 <br />1 2 3 4 5 6 7 8 9 10 | 55 5.50 8.25|
-| 4<br />4 1 3 8                | 16 4.00 6.5|
+| 4<br />4 1 3 8                | 16 4.00 6.50|
 
 <br>
 
