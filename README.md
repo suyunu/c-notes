@@ -9,6 +9,7 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 * https://github.com/gokceuludogan/cmpe150
 * https://github.com/melsener/cmpe150
 * https://github.com/zeynepyirmibes/cmpe150-spring20
+* https://github.com/sb-b/cmpe150-spring2020
 * https://github.com/hkmztrk/CMPE150
 
 ## Weeks
@@ -73,3 +74,8 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 ### [Week 9](Week_09/)
 
 * Arrays
+
+### [Week 10](Week_10/)
+
+* Arrays to Functions
+* Multidimensional Arrays
