@@ -111,7 +111,7 @@ int main()
 
 <br>
 
-### Question 3 - MyStrcmp
+### Question 2 - MyStrcmp
 
  Write a function that takes two strings as argument and compares them. The function should perform what strcmp function from string.h library. Validate your function by using strcmp along with your function.
 
@@ -122,7 +122,7 @@ int main()
 <br>
 
 
-### Question 4 - Get Me Out Of Here
+### Question 3 - Get Me Out Of Here
 
 Write a program which reads a sentence as a string, and a word as a string. Then the program should exclude this word from the sentence if the sentence contains the word, then print the new version to the screen. Assume no punctuation will occur, and every letter is lower case.
 
@@ -132,7 +132,7 @@ Write a program which reads a sentence as a string, and a word as a string. Then
 
 <br>
 
-### Question 5 - Find Me
+### Question 4 - Find Me
 
 Write a function which takes a sentence as a string (char array) with size at most 150, and one integer (x), and another empty string with size at most 30. The function should put the x.th word of the sentence to the empty string.
 
@@ -144,7 +144,7 @@ In the main program read a sentence, and an integer from the user, then call the
 
 <br>
 
-### Question 6 - Sorted Sentence
+### Question 5 - Sorted Sentence
 
 Write a program which takes a string as parameter and sorts words of this string and prints the resulting string. Assume initial string has maximum 100 characters and the length of each word is at most 10.
 
