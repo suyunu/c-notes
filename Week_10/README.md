@@ -261,10 +261,14 @@ int main()
 
 </details>
 
+## A Brief Summary of Multidimensional Arrays
+
 <details>
 
 <summary> Multidimensional Arrays </summary>
 
+![Two dimensional array in C programming](https://cdn.programiz.com/sites/tutorial2program/files/two-dimensional-array_0.jpg)
+    
 * We will only consider the 2-dimensional arrays. 
 * We can define a 2-dim array as follows:
 
@@ -273,10 +277,37 @@ int main()
      * Where, **type** is any data type like int, float etc. 
      * **arrName** is the name of the array variable.
      * **rowSize** is a number denoting the number of rows and **columnSize** denotes the number of columns in a 2-dimensional array.
-     
-![Two dimensional array in C programming](https://cdn.programiz.com/sites/tutorial2program/files/two-dimensional-array_0.jpg)
+    
+<br>
+    
+### Memory Representation of Multidimensional Arrays
 
-* Let's look at the following example:
+![MDA1](figures/W11_01.png)
+![MDA2](figures/W11_02.png)
+
+<br>
+    
+### Multidimensional Arrays Declarations
+
+```c
+float x[3][4];
+
+int c[2][3] = {{1, 3, 0}, {-1, 5, 9}};
+
+int y[2][3][4] = {
+    {{3, 4, 2, 3}, {0, -3, 9, 11}, {23, 12, 23, 2}},
+    {{13, 4, 56, 3}, {5, 9, 3, 5}, {3, 1, 4, 9}}};
+         
+int c[][3] = {{1, 3, 0}, {-1, 5, 9}};
+                
+int c[2][3] = {1, 3, 0, -1, 5, 9};
+    
+// To initialize every element to 0
+int c[2][3] = {{0}};
+```
+
+<br>
+     
 
 ### Example: 2-dim Array
 
@@ -369,6 +400,28 @@ The output will be:
 0 1 2 3 4<br/>
 1 2 3 4 5<br/>
 2 3 4 5 6
+    
+<br>
+    
+If your multidimensional array is a variable length array, then you can take variable length multidimensional arrays as function parameters.
+    
+But you should also take the array sizes as parameters before the multidimensional array.
+    
+```c
+#include <stdio.h>
+
+// N and M must come before arr
+void sumIndices(int N, int M, int arr[N][M])
+{
+   int i, j;
+   
+   for(i = 0; i < N; i++)
+   {
+       for(j = 0; j < M; j++)
+          arr[i][j] = i+j; 
+   }
+}
+```
 
 </details>
 
