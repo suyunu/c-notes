@@ -135,20 +135,20 @@ int main()
   * Example 2:
     ```c
     int main(){
-    int i;
-    char s1[100] = "01234 56789", s2[100] = "abc defg";
+        int i;
+        char s1[100] = "01234 56789", s2[100] = "abc defg";
 
-    strcpy(s1+2, s2+5);
+        strcpy(s1+2, s2+5);
 
-    printf("s1: %s\n", s1); // s1: 01efg
+        printf("s1: %s\n", s1); // s1: 01efg
 
-    for(i = 0 ; i < 12 ; i++)
-      printf("%c-", s1[i]); //0-1-e-f-g-\0-5-6-7-8-9-\0-
+        for(i = 0 ; i < 12 ; i++)
+          printf("%c-", s1[i]); //0-1-e-f-g-\0-5-6-7-8-9-\0-
 
-    return 0;
-  }
-  ```
-  <br>
+        return 0;
+    }
+    ```
+    <br>
   
 * **`strcmp()` and `strncmp()`: Compare strings**
   * `int strcmp(const char *s1, const char *s2);`
