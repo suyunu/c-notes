@@ -58,10 +58,10 @@ When reading a string from user with `gets()` or `fgets()`, `\r` or `\n` charact
 
 ```c
 void normalizeString(char s[]){
-  if(s[strlen(s)-2] == '\r' || s[strlen(s)-2] == '\n')
-    s[strlen(s)-2] = '\0';
-  else if(s[strlen(s)-1] == '\r' || s[strlen(s)-1] == '\n')
-    s[strlen(s)-1] = '\0';
+    if(s[strlen(s)-2] == '\r' || s[strlen(s)-2] == '\n')
+        s[strlen(s)-2] = '\0';
+    else if(s[strlen(s)-1] == '\r' || s[strlen(s)-1] == '\n')
+        s[strlen(s)-1] = '\0';
 }
 ```
 
@@ -74,7 +74,7 @@ int main()
     int i;
     
     for(i = 0; i < 5; i++)
-      printf("%d ", *(myArr+i)); // Output: 1 5 6 2 2
+        printf("%d ", *(myArr+i)); // Output: 1 5 6 2 2
 
     return 0;
 }
@@ -92,19 +92,19 @@ int main()
   * Example 1:
   ```c
   int main(){
-    int i;
-    char s1[100] = "01234 56789";
-
-    printf("strlen(s1): %d\n", strlen(s1)); // strlen(s1): 11
-
-    s1[3] = '\0';
-    printf("strlen(s1): %d\n", strlen(s1)); // strlen(s1): 3
-
-    for(i = 0 ; i < 12 ; i++)
-      printf("%c-", s1[i]); // 0-1-2- -4- -5-6-7-8-9- -
-    // output is actually: 0-1-2-\0-4- -5-6-7-8-9-\0-
-
-    return 0;
+      int i;
+      char s1[100] = "01234 56789";
+      
+      printf("strlen(s1): %d\n", strlen(s1)); // strlen(s1): 11
+      
+      1[3] = '\0';
+      printf("strlen(s1): %d\n", strlen(s1)); // strlen(s1): 3
+      
+      for(i = 0 ; i < 12 ; i++)
+          printf("%c-", s1[i]); // 0-1-2- -4- -5-6-7-8-9- -
+      // output is actually: 0-1-2-\0-4- -5-6-7-8-9-\0-
+      
+      return 0;
   }
   ```
   <br>
@@ -113,22 +113,23 @@ int main()
   * `char *strcpy(char *s1, const char *s2); `
   * `char *strncpy(char *s1, const char *s2, size_t n)`
   * The destination should be large enough!
+  * `strcpy()` copies and pastes null (`\0`) character. But `strncpy()` does not automaticly puts a null (`\0`) character at the end of the pasted part. You should be aware of that. (see Example 2 and 3)
   * Example 1:
     ```c
     int main(){
-    int i;
-    char s1[100] = "01234 56789", s2[100] = "abc defg";
+        int i;
+        char s1[100] = "01234 56789", s2[100] = "abc defg";
 
-    strcpy(s1, s2);
+        strcpy(s1, s2);
 
-    printf("s1: %s\n", s1); // s1: abc defg
-    printf("s2: %s\n", s2); // s2: abc defg
+        printf("s1: %s\n", s1); // s1: abc defg
+        printf("s2: %s\n", s2); // s2: abc defg
 
-    printf("\ns1: ");
-    for(i = 0 ; i < 12 ; i++)
-        printf("%c-", s1[i]); // s1: a-b-c- -d-e-f-g-\0-d-e-f-g-\0-8-9-\0-
+        printf("\ns1: ");
+        for(i = 0 ; i < 12 ; i++)
+            printf("%c-", s1[i]); // s1: a-b-c- -d-e-f-g-\0-d-e-f-g-\0-8-9-\0-
 
-    return 0;
+        return 0;
     }
     ```
     <br>
@@ -144,6 +145,22 @@ int main()
 
         for(i = 0 ; i < 12 ; i++)
           printf("%c-", s1[i]); //0-1-e-f-g-\0-5-6-7-8-9-\0-
+
+        return 0;
+    }
+    ```
+  * Example 3:
+    ```c
+    int main(){
+        int i;
+        char s1[100] = "01234 56789", s2[100] = "abc defg";
+
+        strncpy(s1+2, s2+5, 2);
+
+        printf("s1: %s\n", s1); // s1: 01ef4 56789
+
+        for(i = 0 ; i < 12 ; i++)
+          printf("%c-", s1[i]); // 0-1-e-f-4- -5-6-7-8-9-\0-
 
         return 0;
     }
@@ -259,7 +276,7 @@ Write a program which reads a sentence as a string, and a word as a string. Then
 
 |  INPUT  |  OUTPUT |
 |-------|-------|
-| merhaba dunyali nasilsin<br>dunyali | merhaba nasilsin |
+| you are already dead<br>already | you are dead |
 
 <br>
 
@@ -271,13 +288,13 @@ In the main program read a sentence, and an integer from the user, then call the
 
 |  INPUT  |  OUTPUT |
 |-------|-------|
-| aksam oldu huzunlendim ben yine<br>3 | huzunlendim |
+| omae wa mou shindeiru<br>3 | mou |
 
 <br>
 
 ### Question 5 - Sorted Sentence
 
-Write a program which takes a string as parameter and sorts words of this string and prints the resulting string. Assume initial string has maximum 100 characters and the length of each word is at most 10.
+Write a program which reads a sentence as a string and prints the words in ascending order. Assume initial string has maximum 100 characters, the length of each word is at most 10, only letters will be entered, every letter will be lower case and no punctuation will occur.
 
 Hint: You can use bubble sort algorithm.
 
