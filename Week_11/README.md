@@ -79,6 +79,7 @@ int main()
     return 0;
 }
 ```
+<br>
 
 ![Array-Pointer](figures/array_pointer.png)
 
@@ -106,6 +107,7 @@ int main()
     return 0;
   }
   ```
+  <br>
   
 * **`strcpy()` and `strncpy()`: Copy strings**
   * `char *strcpy(char *s1, const char *s2); `
@@ -124,11 +126,12 @@ int main()
 
     printf("\ns1: ");
     for(i = 0 ; i < 12 ; i++)
-      printf("%c-", s1[i]); // s1: a-b-c- -d-e-f-g-\0-d-e-f-g-\0-8-9-\0-
+        printf("%c-", s1[i]); // s1: a-b-c- -d-e-f-g-\0-d-e-f-g-\0-8-9-\0-
 
     return 0;
-  }
+    }
     ```
+    <br>
   * Example 2:
     ```c
     int main(){
@@ -145,50 +148,52 @@ int main()
     return 0;
   }
   ```
+  <br>
   
-
 * **`strcmp()` and `strncmp()`: Compare strings**
   * `int strcmp(const char *s1, const char *s2);`
   * `int strncmp(const char *s1, const char *s2, size_t n);`
-   * Returns `s1[i] - s2[i]` where the $i^{th}$ character is the first character that is not same except null.
+  * Returns `s1[i] - s2[i]` where the $i^{th}$ character is the first character that is not same except null.
    * In other words, takes difference of each character in `s1` and `s2` respectively (`diff = s1[i] - s2[i]`). If all same returns `0`, else returns `diff`.
      * Returns `< 0` if `s1` comes before `s2` alphabetically.
      * Returns `0` if `s1` is identical to `s2` alphabetically.
      * Returns `> 0` if `s1` comes after `s2` alphabetically.
-   * Example 1:
-     ```c
-     int main(){
-    char s1[100] = "abc fefg", s2[100] = "abc defg";
+  * Example 1:
+    ```c
+    int main(){
+        char s1[100] = "abc fefg", s2[100] = "abc defg";
 
-    printf("%d", strcmp(s1, s2)); // 2 -> ('f' - 'd')
+        printf("%d", strcmp(s1, s2)); // 2 -> ('f' - 'd')
 
-    return 0;
-  }
-     ```
+        return 0;
+    }
+    ```
+    <br>
   * Example 2:
     ```c
     int main(){
-    char s1[100] = "a1234", s2[100] = "b11234";
+        char s1[100] = "a1234", s2[100] = "b11234";
 
-    printf("%d\n", strcmp(s1, s2)); // -1 -> ('a' - 'b')
-    printf("%d\n", strcmp(s1+1, s2+2)); // 0 -> Same
+        printf("%d\n", strcmp(s1, s2)); // -1 -> ('a' - 'b')
+        printf("%d\n", strcmp(s1+1, s2+2)); // 0 -> Same
 
-    return 0;
-  }
+        return 0;
+    }
     ```
+    <br>
   * Example 3:
     ```c
     int main(){
-    char s1[100] = "9HELLO", s2[100] = "HELLOL";
+        char s1[100] = "9HELLO", s2[100] = "HELLOL";
 
-    printf("%d\n", strcmp(s1, s2)); // -15 -> ('9' - 'H')
-    printf("%d\n", strcmp(s1+1, s2)); // -76 -> ('\0' - 'L')
-    printf("%d\n", strncmp(s1+1, s2, 5)); // 0 -> Same
+        printf("%d\n", strcmp(s1, s2)); // -15 -> ('9' - 'H')
+        printf("%d\n", strcmp(s1+1, s2)); // -76 -> ('\0' - 'L')
+        printf("%d\n", strncmp(s1+1, s2, 5)); // 0 -> Same
 
-    return 0;
-  }
+        return 0;
+    }
     ```
-   
+    <br>
 * **`strcat()`, `strncat()`: Append a string to the end of another**
   * `char *strcat(char *s1, const char *s2);`
   * `char *strncat(char *s1, const char *s2, size_t n);`
@@ -196,40 +201,43 @@ int main()
   * Example 1:
     ```c
     int main(){
-    char s1[100] = "01234 56789", s2[100] = "abc defg";
-    
-    strcat(s1, s2);
-    
-    printf("s1: %s\n", s1); // s1: 01234 56789abc defg
-    printf("s2: %s\n", s2); // s2: abc defg
-    
-    return 0;
-  }
+        char s1[100] = "01234 56789", s2[100] = "abc defg";
+
+        strcat(s1, s2);
+
+        printf("s1: %s\n", s1); // s1: 01234 56789abc defg
+        printf("s2: %s\n", s2); // s2: abc defg
+
+        return 0;
+    }
     ```
+    <br>
   * Example 2:
     ```c
     int main(){
-    char s1[100] = "01234 56789", s2[100] = "abc defg";
+        char s1[100] = "01234 56789", s2[100] = "abc defg";
 
-    strcat(s1, s2+5);
+        strcat(s1, s2+5);
 
-    printf("s1: %s\n", s1); // s1: 01234 56789efg
+        printf("s1: %s\n", s1); // s1: 01234 56789efg
 
-    return 0;
-  }
+        return 0;
+    }
     ```
+    <br>
   * Example 3:
     ```c
     int main(){
-    char s1[100] = "01234 56789", s2[100] = "abc defg";
+        char s1[100] = "01234 56789", s2[100] = "abc defg";
 
-    strncat(s1, s2+5, 1);
+        strncat(s1, s2+5, 1);
 
-    printf("s1: %s\n", s1); // s1: 01234 56789e
+        printf("s1: %s\n", s1); // s1: 01234 56789e
 
-    return 0;
-  }
+        return 0;
+    }
     ```
+    <br>
   * Side Note: `strcat(s1+k, s2)` generally does the same thing with `strcat(s1, s2)` because it doesn't matter where we start for the destination string. `strcat()`  appends the second string to the **end** of the second string. 
     
 <br>
