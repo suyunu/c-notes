@@ -289,15 +289,3 @@ In the main program read a sentence, and an integer from the user, then call the
 |  INPUT  |  OUTPUT |
 |-------|-------|
 | omae wa mou shindeiru<br>3 | mou |
-
-<br>
-
-### Question 5 - Sorted Sentence
-
-Write a program which reads a sentence as a string and prints the words in ascending order. Assume initial string has maximum 100 characters, the length of each word is at most 10, only letters will be entered, every letter will be lower case and no punctuation will occur.
-
-Hint: You can use bubble sort algorithm.
-
- |  INPUT  |  OUTPUT |
-|-------|-------|
-| is this a jojo reference | a is jojo reference this |
