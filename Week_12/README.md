@@ -3,7 +3,7 @@
 
 ### Question 1 - Put My Words (String)
 
-Write a program which reads a **sentence (string)**  a **word (string)** and a **positive integer number (int)**. Insert the word to the sentence as the given numbered word. Then modified sentence and the word **Cool** will be printed next to each other.
+Write a program which reads a **sentence (string)**  a **word (string)** and a **positive integer number (int)**. Insert the word to the sentence as the given numbered word. Then modified sentence and the word **Cool** will be printed next to each other separated with one space.
 
 A sentence consists of words separated by spaces. There will be at least one word in a sentence. There will be exactly one space between each word in a sentence. A word consists of only letters (both lowercase and uppercase is possible). A sentence cannot be longer than 1000 characters. A word cannot be longer than 20 letters. The number can't be larger than the number of words in the sentence + 1.
 
@@ -14,9 +14,33 @@ A sentence consists of words separated by spaces. There will be at least one wor
 
 |  INPUT  |  OUTPUT |
 |-------|-------|
-| is my life now <br>this <br>1 | this is my life nowCool |
-| WHeN LiFe GiVeS You MaKe LeMoNaDe <br>LeMoNs <br>5 | WHeN LiFe GiVeS You LeMoNs MaKe LeMoNaDeCool |
-| dont Wait for <br>4 <br>Opportunity | dont Wait for OpportunityCool |
+| is my life now <br>this <br>1 | this is my life now Cool |
+| WHeN LiFe GiVeS You MaKe LeMoNaDe <br>LeMoNs <br>5 | WHeN LiFe GiVeS You LeMoNs MaKe LeMoNaDe Cool |
+| dont Wait for <br>4 <br>Opportunity | dont Wait for Opportunity Cool |
+
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    int n;
+    char sentence[1001], word[21];
+
+    fgets(sentence, 1000, stdin);
+    scanf("%d %s", &n, word);
+
+    // DO_NOT_EDIT_ANYTHING_ABOVE_THIS_LINE
+
+
+    // DO_NOT_EDIT_ANYTHING_BELOW_THIS_LINE
+
+    printf("%s Cool", sentence);
+
+    return 0;
+}
+```
 
 <br>
 
