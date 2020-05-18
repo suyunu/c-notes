@@ -83,3 +83,7 @@ Bogazici University CmpE 150 Introduction to Computing (C programming language) 
 ### [Week 11](Week_11/)
 
 * Strings
+
+### [Week 12](Week_12/)
+
+* Practice (Array - 2D Array - String) 
