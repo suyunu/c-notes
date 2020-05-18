@@ -14,8 +14,8 @@ A sentence consists of words separated by spaces. There will be at least one wor
 
 |  INPUT  |  OUTPUT |
 |-------|-------|
-| is my life now <br>this <br>1 | this is my life now Cool |
-| WHeN LiFe GiVeS You MaKe LeMoNaDe <br>LeMoNs <br>5 | WHeN LiFe GiVeS You LeMoNs MaKe LeMoNaDe Cool |
+| is my life now <br>1 <br>this | this is my life now Cool |
+| WHeN LiFe GiVeS You MaKe LeMoNaDe <br>5 <br>LeMoNs | WHeN LiFe GiVeS You LeMoNs MaKe LeMoNaDe Cool |
 | dont Wait for <br>4 <br>Opportunity | dont Wait for Opportunity Cool |
 
 
