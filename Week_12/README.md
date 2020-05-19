@@ -1,4 +1,3 @@
-
 # Week 12 Notes - 20.05.2020
 
 ### Question 1 - Put My Words (String)
@@ -59,12 +58,11 @@ Hint: You can use bubble sort algorithm.
 ### Question 3 - Frequentist Character (String)
 
 Write a program which reads a string and finds the maximum occurring character of that string. Then print the  
-maximum occurring character and the number of occurrence. If two characters have same maximum count, print smallest character  in terms of ASCII value.
+maximum occurring character and the number of occurrences. If two characters have same maximum count, print smallest character in terms of ASCII value. Spaces are not counted.
 
 |  INPUT  |  OUTPUT |
 |-------|-------|
 | Is this a pigeon? | i 2 |
-| 6<br>3 5 -10 4 -2 6 -1 | 8 3 3 |
 
 <br>
 
