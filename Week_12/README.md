@@ -13,14 +13,21 @@ A sentence consists of words separated by spaces. There will be at least one wor
 
 |  INPUT  |  OUTPUT |
 |-------|-------|
-| is my life now <br>1 <br>this | this is my life now Cool |
-| WHeN LiFe GiVeS You MaKe LeMoNaDe <br>5 <br>LeMoNs | WHeN LiFe GiVeS You LeMoNs MaKe LeMoNaDe Cool |
-| dont Wait for <br>4 <br>Opportunity | dont Wait for Opportunity Cool |
+| is my life now<br>1<br>this| this is my life now Cool |
+| WHeN LiFe GiVeS You MaKe LeMoNaDe<br>5<br>LeMoNs| WHeN LiFe GiVeS You LeMoNs MaKe LeMoNaDe Cool |
+| dont Wait for<br>4<br>Opportunity| dont Wait for Opportunity Cool |
 
 
 ```c
 #include <stdio.h>
 #include <string.h>
+
+void normalizeString(char s[]){
+	if(s[strlen(s)-2] == '\r' || s[strlen(s)-2] == '\n')
+		s[strlen(s)-2] = '\0';
+	else if(s[strlen(s)-1] == '\r' || s[strlen(s)-1] == '\n')
+		s[strlen(s)-1] = '\0';
+}
 
 int main()
 {
@@ -29,6 +36,9 @@ int main()
 
     fgets(sentence, 1000, stdin);
     scanf("%d %s", &n, word);
+
+    normalizeString(sentence);
+    normalizeString(word);
 
     // DO_NOT_EDIT_ANYTHING_ABOVE_THIS_LINE
 
@@ -45,7 +55,7 @@ int main()
 
 ### Question 2 - Sorted Sentence (String)
 
-Write a program which takes a string as parameter and sorts words of this string and prints the resulting string. Assume initial string has maximum 100 characters and the length of each word is at most 10.
+Write a program which reads a sentence from the user and prints the words in the sorted order (ascending). Assume initial string has maximum 100 characters, the length of each word is at most 10 and all characters are lower case letters.
 
 Hint: You can use bubble sort algorithm.
 
