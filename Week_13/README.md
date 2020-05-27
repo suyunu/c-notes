@@ -23,10 +23,11 @@ Write a program which takes an integer N and reads N points (given by their x an
 
 *Use the point definition and distance function from the first question*
 
+
 | Input                                        | Output        |
 | -------------------------------------------- | ------------- |
-| 3<br/>3 0<br/>0 0<br/>0 4                    | 0,4<br/>3,0   |
-| 5 <br/>10 5<br/>4 8<br/>0 8<br/>4 5<br/>-1 2 | -1,2<br/>10,5 |
+| 3<br/>3 0<br/>0 0<br/>0 4                    | 3.00 0.00<br/>0.00 4.00   |
+| 5 <br/>10 5<br/>4 8<br/>0 8<br/>4 5<br/>-1 2 | 10.00 5.00<br/>-1.00 2.00 |
 
 <br>
 
@@ -60,7 +61,7 @@ Define a **struct** representing a student having **student_id (integer), mt_gra
 
 |  INPUT  |  OUTPUT |
 |-------|-------|
-| 1<br>100 40<br>40 100| 1000 B<br>1001 A |
+| 2<br>100 40<br>40 100| 1000 B<br>1001 A |
 | 3<br>45 25<br>100 100<br>0 90  | 1000 C<br>1001 A<br>1002 B |
 
 ```c
@@ -78,10 +79,10 @@ void set_grade(Student *p){
 int main(void){
     int N;
     scanf("%d", &N);
-    Student cmpe150_students[N];
+    Student cmpe[N];
     int i;
     for(i = 0; i < N; i++){
-      scanf("%f %f", &cmpe[i].mt_grade, &cmpe[i].final_grade);
+      scanf("%d %d", &cmpe[i].mt_grade, &cmpe[i].final_grade);
       cmpe[i].student_id = 1000 + i;
       // Call set grade function
     }
@@ -127,16 +128,16 @@ Write a function which takes an array of books, and sorts them according to thei
 
 Using that function, your program should print the names and page counts of each book with the order of their prices. Like:
 
-1. LOT: 528 pages.
-2. THG: 727 pages.
-3. MSB: 340 pages.
+1. LOT: 528 pages (15 gold)
+2. THG: 727 pages (32 gold)
+3. MSB: 340 pages (120 gold)
 4. etc..
 
 Reading and printing format is up to you.
 
 |  INPUT  |  OUTPUT |
 |-------|-------|
-| 3<br>727 THG 32<br>528 LOT 15<br>340 MSB 120| LOT: 528 pages - 15 gold<br>THG: 727 pages - 32 gold<br>MSB: 340 pages - 120 gold |
+| 3<br>727 THG 32<br>528 LOT 15<br>340 MSB 120| LOT: 528 pages (15 gold)<br>THG: 727 pages (32 gold)<br>MSB: 340 pages (120 gold) |
 
 <br>
 
