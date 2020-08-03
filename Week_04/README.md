@@ -1,5 +1,5 @@
 
-# Week 4 Notes - 04.03.2020
+# Week 4 Notes
 
 ---
 

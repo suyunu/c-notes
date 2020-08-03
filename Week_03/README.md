@@ -1,5 +1,5 @@
 
-# Week 3 - 26.02.2020
+# Week 3 Notes
 
 ## Last Week Refresher
 

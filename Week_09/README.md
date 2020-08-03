@@ -1,4 +1,4 @@
-# Week 9 Notes - 29.04.2020
+# Week 9 Notes
 
 ## Arrays
 

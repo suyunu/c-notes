@@ -1,50 +1,12 @@
-# Welcome to CMPE150.03 Lab Session! -- (Lab 1 - 12.02.2020)
+# Welcome to CMPE150 Lab Session! -- Week 1
 
-
-
-### Assistant:	**Burak Suyunu**
-
-### Mail:		**burak.suyunu@boun.edu.tr**
-
-### Office:	    **BM 17B**
-
-
-
-## Important Announcements
-
-* You will be added to an email list for the announcements after the add/drop period. **Make sure that your e-mail in BUIS is valid!**
-
-* We will use **Eclipse IDE** and **Teaching Codes** plug-in in labs and exams.  Student accounts will be created for this plug-in. The username and password will be sent to **the e-mail in BUIS**.
-
-* There will be **weekly pop-up quizzes** during lab hours.  The quiz grades **contribute** to the overall grade.  *(10%)*
-
-* Everyone must attend to the lab session of **the section registered to**.  If you have any conflict, you should change your section. 
-
-* You should complete the installation as soon as possible after we send the manual. 
-
-* Labs hours are dedicated to **practical programming exercises not for covering lecture materials**. I **strongly** suggest you to attend the lectures. 
-
-* **Grading**
-    * Quizes: %10
-    * Midterm 1 (31.03.2020): %25 
-    * Midterm 2 (05.05.2020): %30
-    * Final (TBA): %35
-    
-* Lecture Notes: https://www.dropbox.com/sh/necfl3mqdkecmyd/AAArCAWBiFA7HhDJyZhc9jqea?dl=0
-
-* github link: https://github.com/suyunu/c-notes
-
-# Programming Languages
+## Programming Languages
 
 ![Image result for popular programming languages](https://www.ubuntupit.com/wp-content/uploads/2018/11/Most-Popular-Programming-Languages.jpg)
 
 Figure from: https://www.ubuntupit.com/wp-content/uploads/2018/11/Most-Popular-Programming-Languages.jpg
 
 ![1569351507071](figures/1569351507071.png)
-
-
-
-
 
  
 

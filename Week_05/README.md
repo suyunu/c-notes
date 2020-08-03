@@ -1,4 +1,4 @@
-# Week 5 Notes - 11.03.2020
+# Week 5 Notes
 
 ## Star Items of the Last Week
 <details>

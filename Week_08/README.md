@@ -1,4 +1,4 @@
-# Week 8 Notes - 22.04.2020
+# Week 8 Notes
 
 ## Functions - Call by Reference - Pointers
 

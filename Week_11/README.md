@@ -1,4 +1,4 @@
-# Week 11 Notes - 13.05.2020
+# Week 11 Notes
     
 ### Warm Up Question 1 - Rook and Pawns (Lab9 Q2)
 Write a program which reads a chessboard as an 8x8 matrix from the user. In the chessboard, there will be one rook (kale) represented by integer: 8, and multiple pawns (piyonlar) represented by integer: 1. The rest will be empty: 0.

@@ -1,4 +1,4 @@
-# Week 12 Notes - 20.05.2020
+# Week 12 Notes
 
 ### Question 1 - Put My Words (String)
 

@@ -1,4 +1,4 @@
-# Week 7 Notes - 15.04.2020
+# Week 7 Notes
 
 <details><summary><bold>Function Syntax</bold></summary><img src='https://www.geeksforgeeks.org/wp-content/uploads/Function-Prototype-in-c.png'/></details>
 

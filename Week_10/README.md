@@ -1,4 +1,4 @@
-# Week 10 Notes - 06.05.2020
+# Week 10 Notes
 
 ## A Brief Summary of Arrays (Continued)
 <details>

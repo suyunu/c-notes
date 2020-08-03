@@ -1,4 +1,4 @@
-# Week 13 Notes - 27.05.2020
+# Week 13 Notes
 
 ## Structures
 

@@ -1,4 +1,4 @@
-# Week 2 Notes - 19.02.2020
+# Week 2 Notes
 
 
 ## Star Items of the Last Week

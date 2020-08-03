@@ -1,4 +1,4 @@
-# Week 6 Notes - 08.04.2020
+# Week 6 Notes
 
 
 ### Question 1 - Digiiiits (LAB4 Q10)
