@@ -248,11 +248,11 @@ int main()
 
 - Represent characters (letters, digits, signs)
 
-- 1 byte = 8 bits = 256 values.
+- 1 byte = 8 bits = 256 values. (-128 to 127)
 
 - **Encoding:** Mapping characters to integer values
 
-  - ASCII table: maps 256 characters.
+  - ASCII table: maps 127 characters.
 
     ![](http://www.asciitable.com/index/asciifull.gif)
 
