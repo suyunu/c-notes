@@ -98,7 +98,7 @@ The conditional statements **if**, **if-else**, and **switch** allow us to choos
     int a = 5;
     if(a > 0)
         printf("Positive\n");
-    printf("a: \%d", a);
+    printf("a: %d", a);
 ```
 
 </details>
